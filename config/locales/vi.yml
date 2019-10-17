@@ -1,2 +1,32 @@
 vi:
-  hello: "Xin chào"
+  static_pages:
+    about:
+      about: Thông tin cơ bản
+      the: Là
+      part_of_the: một phần của
+      learn_enough: Learn Enough
+      def_tut_family: hệ thống giáo dục, bao gồm một
+      book: quyển sách
+      and: và
+      scr_se: danh sách video bài giảng
+      teach_web: để dạy phát triển web với
+      ror: Ruby on Rails
+      des_app: Đây là 1 một ứng dụng mẫu cho chuỗi bài giảng
+    contact:
+      contact: Liên hệ
+      des_contact: Liên hệ khóa học
+      link_contact: tại đây
+    help:
+      help: Trợ giúp
+      des_help: Nhận hỗ trợ về khóa học Ruby On Rails
+      link_help_page: taị đây
+      get_help: Để nhận trợ giúp về ví dụ này
+      book: tại đây
+    home:
+      home: Trang Chủ
+      des_home: Đây là trang chủ của
+      sample_app: ứng dụng mẫu
+  ror_tut: Hướng dẫn Ruby on Rails
+  vi: Tiếng Việt
+  en: Tiếng Anh
+  ror_tut_sample: Hướng dẫn mẫu về Ruby on Rails

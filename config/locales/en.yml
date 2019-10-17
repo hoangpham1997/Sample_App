@@ -1,2 +1,32 @@
 en:
-  hello: "Hello world"
+  static_pages:
+    about:
+      about: About
+      the: The
+      part_of_the: part of the
+      learn_enough: Learn Enough
+      def_tut_family: family of tutorials, is a
+      book: book
+      and: and
+      scr_se: screencast series
+      teach_web: to teach web development with
+      ror: Ruby on Rails
+      des_app: This is the sample app for the tutorial.
+    contact:
+      contact: Contact
+      des_contact: Contact the Ruby on Rails Tutorial about the sample app at the
+      link_contact: contact page
+    help:
+      help: Help
+      des_help: Get help on the Ruby on Rails Tutorial at the
+      link_help_page: Rails Tutorial Help page.
+      get_help: To get help on this sample app, see the
+      book: book
+    home:
+      home: Home
+      des_home: This is the home page for the
+      sample_app: sample application.
+  ror_tut: Ruby on Rails Tutorial
+  vi: Vietnam
+  en: English
+  ror_tut_sample: Ruby on Rails Tutorial Sample App
