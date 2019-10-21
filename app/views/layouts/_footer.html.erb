@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("ror_tut"), Settings.railstutorial %>
+    <%= t ".by" %>
+    <%= link_to t("name_of_author"), Settings.link_of_author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t("news"), Settings.rails_new %><li>
+    </ul>
+  </nav>
+</footer>
