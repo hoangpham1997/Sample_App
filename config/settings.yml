@@ -11,3 +11,4 @@ max_length_name: 50
 max_length_email: 255
 minimum_pw: 6
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+size_of_gravatar: 80
