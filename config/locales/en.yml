@@ -39,3 +39,14 @@ en:
   news: News
   sign: Sign up
   des_sign_up: This will be a signup page for new users
+  invalid_info: Invalid Infomation
+  name: name
+  email: email
+  password: password
+  pass_c: password_confirmation
+  confirmation: Confirmation
+  create_acc: Create my account
+  error_name:
+      one: The form contains 1 error
+      other: The form contains "%{count} errors"
+  no_exist: Account doesn't exist

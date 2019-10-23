@@ -1,5 +1,7 @@
 Rails.application.configure do
 
+  config.force_ssl = true
+
   config.cache_classes = true
 
   config.eager_load = true

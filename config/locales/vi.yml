@@ -39,3 +39,14 @@ vi:
   news: Bản tin
   sign: Đăng ký
   des_sign_up: Trang đăng ký cho người mới
+  invalid_info: Lỗi thông tin
+  name: Tên đăng nhập
+  email: email
+  password: Mật khẩu
+  pass_c: Xác nhận mật khẩu
+  confirmation: Xác thực
+  create_acc: Tạo tài khoản
+  error_name:
+      one: Biểu mẫu có 1 lỗi
+      other: "Biểu mẫu có %{count} lỗi"
+  no_exist: Tài khoản không tồn tại
