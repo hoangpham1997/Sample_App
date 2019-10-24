@@ -47,6 +47,13 @@ en:
   confirmation: Confirmation
   create_acc: Create my account
   error_name:
-      one: The form contains 1 error
-      other: The form contains "%{count} errors"
+    one: The form contains 1 error
+    other: The form contains "%{count} errors"
   no_exist: Account doesn't exist
+  users: Users
+  profile: Profile
+  set: Settings
+  log_out: Log out
+  sp: sample app
+  new_user: New user?
+  invalid_combination: Invalid email/password combination

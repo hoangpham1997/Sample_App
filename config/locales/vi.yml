@@ -50,3 +50,10 @@ vi:
       one: Biểu mẫu có 1 lỗi
       other: "Biểu mẫu có %{count} lỗi"
   no_exist: Tài khoản không tồn tại
+  users: Người dùng
+  profile: Thông tin cơ bản
+  set: Cài đặt
+  log_out: Thoát
+  sp: Ứng dụng mẫu
+  new_user: Người dùng mới
+  invalid_combination: Lỗi email hoặc mật khẩu
