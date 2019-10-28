@@ -57,3 +57,5 @@ en:
   sp: sample app
   new_user: New user?
   invalid_combination: Invalid email/password combination
+  re_me: remember_me
+  remember_on_computer: Remember me on this computer
