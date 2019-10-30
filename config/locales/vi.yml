@@ -58,3 +58,25 @@ vi:
   new_user: Người dùng mới
   invalid_combination: Lỗi email hoặc mật khẩu
   remember_me: Ghi nhớ
+  remember_on_computer: Ghi nhớ tôi trên máy này
+  edit_user: Chỉnh sửa nguời dùng =
+  save_changes: Lưu lại những thay đổi
+  update_ur_pr: Cập nhật thông tin của bạn
+  change: Thay đổi
+  pro_updated: Thông tin đã được cập nhật
+  pls_log_in: Xin hãy đăng nhập.
+  you_sure: Bạn có chắc chắn không?
+  user_del: Đã xóa người dùng.
+  fail_update: Lỗi khi cập nhật
+  all_user: Tất cả người dùng
+  gra_for_user: gravatar_for @user
+  pls_check_activate: Làm ơn kiểm tra email của bạn để kích hoạt tài khoản!
+  acc_activated: Tài khoản đã được kích hoạt!
+  invalid_activated: Đường link không hợp lệ.
+  acc_check_link_not_activated: Tài khoản chưa được kích hoạt. Xin hãy kiểm tra
+    email để truy cập vào đường link kích hoạt.
+  hi: Xin chào
+  email_link_activate: "Chào mừng tới ứng dụng mẫu! Ấn vào đường link bên dưới
+    để kích hoạt tài khoản của bạn:"
+  acc_activation: Xác thực tài khoản
+  active: Xác thực
