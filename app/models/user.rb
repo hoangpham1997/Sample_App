@@ -1,6 +1,6 @@
 class User < ApplicationRecord
-  VALID_EMAIL_REGEX = Settings.email_regex
   attr_accessor :remember_token
+  VALID_EMAIL_REGEX = Settings.email_regex
 
   before_save{email.downcase!}
 
@@ -9,7 +9,8 @@ class User < ApplicationRecord
     length: {maximum: Settings.max_length_email},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: true
-  validates :password, presence: true, length: {minimum: Settings.minimum_pw}
+  validates :password, presence: true, length: {minimum: Settings.minimum_pw},
+    allow_nil: true
 
   has_secure_password
 

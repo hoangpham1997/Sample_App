@@ -7,9 +7,12 @@ help_here: "https://www.railstutorial.org/help"
 r_o_r: "https://rubyonrails.org/"
 link_of_author: "https://www.michaelhartl.com/"
 rails_new: "https://news.railstutorial.org/"
+gravatar_website: "https://gravatar.com/emails"
 max_length_name: 50
 max_length_email: 255
 minimum_pw: 6
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 size_of_gravatar: 80
 session_number: 1
+user_gravatar: 50
+per_pages: 10
