@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user.authenticate params[:session][:password]
+    if @user&.authenticate(params[:session][:password])
       log_in @user
       if params[:session][:remember_me] == Settings.session_numbers
         remember @user
@@ -12,8 +12,8 @@ class SessionsController < ApplicationController
       end
       redirect_back_or @user
     else
-      flash.now[:danger] = t "invalid_combination"
-      render :new
+      flash[:warning] = t "acc_check_link_not_activated"
+      redirect_to root_url
     end
   end
 

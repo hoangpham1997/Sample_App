@@ -19,9 +19,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "welcome_s"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "pls_check_activate"
+      redirect_to root_url
     else
       flash[:danger] = t "invalid_info"
       render :new
@@ -45,6 +45,13 @@ class UsersController < ApplicationController
       flash[:danger] = t "invalid_info"
     end
     redirect_to users_url
+  end
+
+  def authenticated? attribute, token
+    digest = send("#{attribute}_digest")
+    return false unless digest
+
+    BCrypt::Password.new(digest).is_password? token
   end
 
   private

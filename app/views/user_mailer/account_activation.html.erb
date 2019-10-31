@@ -1,0 +1,5 @@
+<h1><%= t "sp" %></h1>
+<p><%= t "hi" %> <%= @user.name %>,</p>
+<p><%= t "email_link_activate" %></p>
+<%= link_to t("active"), edit_account_activation_url(id: @user.activation_token,
+  email: @user.email) %>

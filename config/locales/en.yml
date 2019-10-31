@@ -54,7 +54,7 @@ en:
   profile: Profile
   set: Settings
   log_out: Log out
-  sp: sample app
+  sp: Sample App
   new_user: New user?
   invalid_combination: Invalid email/password combination
   re_me: remember_me
@@ -70,3 +70,11 @@ en:
   fail_update: Fail to update.
   all_user: All Users
   gra_for_user: gravatar_for @user
+  pls_check_activate: Please check your email to activate your account.
+  acc_activated: Account activated!
+  invalid_activated: Invalid activation link
+  acc_check_link_not_activated: Account not activated. Check your email for the activation link.
+  hi: Hi
+  email_link_activate: "Welcome to the Sample App! Click on the link below to activate your account:"
+  acc_activation: Account activation
+  active: Activate
