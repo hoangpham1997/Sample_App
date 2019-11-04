@@ -80,3 +80,18 @@ vi:
     để kích hoạt tài khoản của bạn:"
   acc_activation: Xác thực tài khoản
   active: Xác thực
+  forgot_password: "(bạn quên mật khẩu)"
+  up_forgot_password: Quên mật khẩu
+  sub: Nộp
+  sent_password_email: Link reset password đã được gửi tới email của bạn
+  email_not_found: Không tìm thấy địa chỉ email
+  pass_reset: Reset mật khẩu
+  reset_pass: Reset mật khẩu
+  click_link_toreset: "Để reset mật khẩu. Ấn vào link bên dưới: "
+  link_expire_in_twohour: "Đường link này sẽ hết hiệu lực trong 2 giờ."
+  if_didnot_request: "Nếu bạn không yêu cầu reset mật khẩu thì hãy ấn ở lại."
+  update_pass: Cập nhật mật khẩu mới
+  cant_empty: Không thể để trống
+  pass_has_been_reset: Mật khẩu đã được reset
+  passreset_has_expire: Thời gian reset mật khẩu đã hết hiệu lực
+  cant_find_user: Không thể tìm thấy người dùng

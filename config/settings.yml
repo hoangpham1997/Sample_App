@@ -16,3 +16,4 @@ size_of_gravatar: 80
 session_number: 1
 user_gravatar: 50
 per_pages: 10
+time_to_send: 2
