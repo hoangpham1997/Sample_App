@@ -93,3 +93,19 @@ en:
   pass_has_been_reset: Password has been reset.
   passreset_has_expire: Password reset has expired.
   cant_find_user: Can't find user
+  post: Post
+  compose_new_micro: Compose new micropost...
+  micro: micropost
+    one: One micropost
+    other: It has "%{count} microposts"
+  micro_upcase: Micoposts
+  micro_feed: Micropost Feed
+  micro_created: Micropost created!
+  posted: Posted
+  ago: ago.
+  micro_deleted: Micropost deleted
+  must_valid_image: must be a valid image format
+  less_than_5MB: should be less than 5MB
+  max_file_pls: Maximum file size is 5MB. Please choose a smaller file.
+  view_my_pro: view my profile
+  micro_fail: Fail to create micropost
